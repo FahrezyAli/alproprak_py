@@ -36,11 +36,12 @@ def main():
         if (i == 0):
             #Jika i = 0, maka deret baru saja dimulai sehingga panjang deret (l[0]) adalah 1
             l[0] = 1
-        elif (x[i] >= x[i - 1]):
+        elif (x[i] > x[i - 1]):
             if not(c):
                 #Karena c masih false, maka deret baru saja dimulai sehingga awal index (s[0]) bisa diambil dan c diubah menjadi true untuk menandakan bahwa awal index telah ditemukan
                 s[0] = i - 1
                 c = True
+
             #Jika nilai x[i] lebih kecil daripada nilai sebelumya (x[i - 1]), maka panjang dari deret (l[0]) bertambah 1
             l[0] = l[0] + 1
         else:
@@ -49,6 +50,7 @@ def main():
 
             #Kondisi c diubah menjadi false karena deret naik berkelanjutan sudah selesai
             c = False
+            
         #Setiap langkah dari loop, jika panjang deret yang sedang berlangsung (l[0]) lebih besar daripada panjang deret sebelumnya, maka nilai panjang terbesar akan disimpan di l[1] beserta dengan awal indexnya (s[1])
         if (l[0] > l[1]):
             l[1] = l[0]
@@ -65,6 +67,7 @@ def main():
     else:
         for i in range(s[1], e + 1):
             print(str(x[i]), end = " ")
+
         print("(" + str(l[1]) + ")")
 
 if __name__ == "__main__":

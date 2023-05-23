@@ -6,7 +6,7 @@ def main():
 
     #Proses input nilai array x
     i = 0;
-    while (i != n):
+    while (i < n):
         x.append(int(input("Input nilai ke " + str(i + 1) + ": ")))
         i = i + 1
 
@@ -16,7 +16,7 @@ def main():
     t = []
 
     i = 0
-    while (i != 2):
+    while (i < 2):
         s.append(0)
         l.append(0)
         t.append(0)
@@ -24,13 +24,13 @@ def main():
         
     c = False
     i = 0
-    while (i != n):
+    while (i < n):
         if (i == 0):
             
             #Jika i = 0, maka deret baru saja dimulai sehingga panjang deret (l[0]) adalah 1
             l[0] = 1
         else:
-            if (x[i] >= x[i - 1]):
+            if (x[i] > x[i - 1]):
                 if (c):
                     
                     #Jika c sudah true, maka awal index tidak diambil lagi agar nilai nya tidak tertimpa dan nilai total terus ditambahkan
@@ -67,15 +67,15 @@ def main():
 
     #Proses output
     print("Array bilangan ascending berurutan terpanjang: ", end = "")
-    if (l[1] == 1):
+    if (l[1] == 0):
         print("Tidak ada")
-
-    i = s[1]
-    while (i != e):
-        print(str(x[i]) + " ", end = "")
-        i = i + 1
-    
-    print("(" + str(t[1]) + ")")
+    else:
+        i = s[1]
+        while (i < e):
+            print(str(x[i]) + " ", end = "")
+            i = i + 1
+        
+        print("(" + str(t[1]) + ")")
 
 if __name__ == "__main__":
     main()
