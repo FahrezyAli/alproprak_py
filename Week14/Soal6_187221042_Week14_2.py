@@ -1,4 +1,4 @@
-import Soal5_187221042_Week14_2 as Soal5
+from Soal5_187221042_Week14_2 import numFactor
 
 from typing import List
 
@@ -27,7 +27,7 @@ def main():
 def dispPrimeFactor(n: int, i: int, r: List[int]):
     
     if (i <= n / 2):
-        if (n % i == 0 and Soal5.numFactor(i, 1) == 2):
+        if (n % i == 0 and numFactor(i, 1) == 2):
             
             #Jika i merupakan faktor dari n dan i merupakan bilangan prima (numFactor == 2). Maka nilai i akan di output
             r.append(i)
@@ -36,7 +36,7 @@ def dispPrimeFactor(n: int, i: int, r: List[int]):
         dispPrimeFactor(n, i + 1, r)
 
     else:
-        if (Soal5.numFactor(n, 1) == 2):
+        if (numFactor(n, 1) == 2):
             r.append(n)
 
     return r
