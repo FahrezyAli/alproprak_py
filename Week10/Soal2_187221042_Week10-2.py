@@ -8,6 +8,9 @@
 #h Total harga perjalanan
 
 def main():
+
+    print("Soal Nomor 2 Minggu 10 \"Menghitung harga transportasi online MyJex\"")
+
     j = int(input("Inputlah jarak total perjalanan dalam km: "))
     w = int(input("Inputlah waktu total perjalanan dalam menit: "))
     c = input("Input status hujan dengan 'hujan' jika hujan, dan 'cerah' jika cerah: ")

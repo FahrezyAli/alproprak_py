@@ -5,6 +5,9 @@
 #b : Input b
 
 def main():
+
+    print("Soal Nomor 1 Minggu 8 \"(a/b)\"")
+
     a = int(input("Masukkan nilai a: "))
     b = int(input("Masukkan nilai b: "))
     print("Output: " + str(a / b))

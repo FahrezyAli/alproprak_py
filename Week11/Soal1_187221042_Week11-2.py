@@ -12,6 +12,9 @@
 #i:    Looping
 
 def main():
+
+    print("Soal Nomor 1 Minggu 11 \"Berat Bebek\"")
+
     _sum = 0
     svar = 0
 

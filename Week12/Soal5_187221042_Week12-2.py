@@ -1,4 +1,7 @@
 def main():
+
+    print("Soal Nomor 5 Minggu 12 \"String Palindrome\"")
+
     s = input("Input kalimat yang ingin di cek apakah palindrome atau tidak: ")
 
     #String r diberi string kosong ("") agar tidak error

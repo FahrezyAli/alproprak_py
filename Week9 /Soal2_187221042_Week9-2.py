@@ -6,6 +6,9 @@
 #k  : Nilai k dari deret {6, 9, 11, k}
 
 def main():
+
+    print("Soal Nomor 2 Minggu 9 \"Nilai k dari deret {6, 9, 11, k)\"")
+
     #Input n
     n = int(input("Input rerata deret (Harus lebih dari 6): "))
 

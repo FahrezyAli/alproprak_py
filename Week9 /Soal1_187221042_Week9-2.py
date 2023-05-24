@@ -8,6 +8,9 @@
 #warisan: Total warisan
 
 def main():
+
+    print("Soal Nomor 1 Minggu 9 \"Warisan\"")
+
     #Input x
     x = float(input("Input nilai warisan yang diterima ibu dan satu anak: "))
 

@@ -1,4 +1,7 @@
 def main():
+
+    print("Soal Nomor 1 Minggu 12 \"Sortir dua array kedalam satu array\"")
+
     x = [] 
     y = []
     z = []

@@ -17,6 +17,9 @@ import math
 #d  Jarak titik pusat dua lingkaran
 
 def main():    
+
+    print("Soal Nomor 1 Minggu 10 \"Melihat Hubungan Antara 2 Lingkaran\"")
+
     x1 = float(input("Inputlah nilai sumbu x titik pusat lingkaran pertama: "))
     y1 = float(input("Inputlah nilai sumbu y titik pusat lingkaran pertama: "))
     r1 = float(input("Inputlah jari-jari lingkaran pertama: "))

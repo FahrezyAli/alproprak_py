@@ -9,6 +9,9 @@
 #pj : Persentase pertambahan harga
 
 def main():
+
+    print("Soal Nomor 3 Minggu 9 \"Penjual Minyak\"")
+
     #Input harga  beli
     b = int(input("Input harga beli: "))
 
@@ -28,7 +31,7 @@ def main():
     pj = h/b*100
 
     #Output
-    print("Persentase pertambahan harga: " + str(pj) + "%");
+    print("Persentase pertambahan harga: " + str(pj) + "%")
 
 if __name__ == "__main__":
     main()

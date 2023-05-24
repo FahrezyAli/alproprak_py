@@ -11,6 +11,9 @@
 #o: Total status obesitas
 
 def main():
+
+    print("Soal Nomor 2 Minggu 11 \"Kondisi kesehatan bebek\"")
+
     b = []
 
     k = 0

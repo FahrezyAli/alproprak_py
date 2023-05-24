@@ -12,6 +12,7 @@
 #c: Boolean dari pertanyaan "Apakah awal deret berhasil ditemukan"
 
 def main():
+    
     print("Soal Nomor 3 Minggu 11 \"LCIS\"")
 
     n = int(input("Input ukuran array: "))

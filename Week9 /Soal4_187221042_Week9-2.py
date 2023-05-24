@@ -11,6 +11,9 @@
 #ma : Menit kedatangan
 
 def main():
+
+    print("Soal Nomor 4 Minggu 9 \"Waktu Kedatangan Bus\"")
+
     jo = int(input("Input jam keberangkatan: "))
 
     mo = int(input("Input menit keberangkatan: "))
@@ -35,7 +38,7 @@ def main():
     ma = int((w-(3600*ja))/60)
 
     #Output
-    print("Anda akan sampai pada pukul: " + str(ja) + ":" + str(ma));
+    print("Anda akan sampai pada pukul: " + str(ja) + ":" + str(ma))
 
 if __name__ == "__main__":
     main()

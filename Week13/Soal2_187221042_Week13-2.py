@@ -1,7 +1,7 @@
-from typing import List
-
 def main():
-        
+
+    print("Soal Nomor 2 Minggu 13 \"Frekuensi Modus Terbesar\"")
+
     n = int(input("Input ukuran array yang diinginkan: "))
 
     x = []
@@ -13,7 +13,7 @@ def main():
     #Output
     print("Frekuensi terbesar dari array tersebut adalah: " + str(maxFreq(x, n)))
 
-def maxFreq(x: List[int], n: int):
+def maxFreq(x, n):
         
     c = 1
     f = 0

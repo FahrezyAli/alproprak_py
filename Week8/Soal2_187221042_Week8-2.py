@@ -5,6 +5,9 @@
 #t : Input tinggi segitiga
 
 def main():
+
+    print("Soal Nomor 2 Minggu 8 \"Luas Segitiga\"")
+
     a = int(input("Masukkan nilai alas segitiga: "))
     t = int(input("Masukkan nilai tinggi segitga: "))
     print("Output: " + str(a * t / 2))

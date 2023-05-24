@@ -1,5 +1,3 @@
-from typing import List;
-
 def main():
         
     n = int(input("Input ukuran array yang diinginkan: "))
@@ -32,7 +30,7 @@ def main():
 
     print("Hasil rotasi " + str(r) + " langkah ke " + s + " adalah: " + str(rotate(x, n, r, d)))
 
-def rotate(x: List[int], n: int, r: int, d: int):
+def rotate(x, n, r, d):
         
     f = 0
     t = 0

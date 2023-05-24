@@ -20,6 +20,9 @@ import math
 
 
 def main():
+
+    print("Soal Nomor 3 Minggu 10 \"Melihat hubungan antara parabola dan garis\"")
+
     a = int(input("Inputlah nilai a: "))
     b = int(input("Inputlah nilai b: "))
     c = int(input("Inputlah nilai c: "))

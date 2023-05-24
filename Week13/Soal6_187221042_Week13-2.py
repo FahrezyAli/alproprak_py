@@ -1,6 +1,6 @@
-from typing import List;
-
 def main():
+
+    print("Soal Nomor 6 Minggu 13 \"Mengurangi Array dengan Nilai Array Terkecil\"")
         
     n = int(input("Input ukuran array yang diinginkan: "))
 
@@ -15,7 +15,7 @@ def main():
     print("Array yang telah dikurangi dengan nilai terkecil adalah: " + str(kurangNilaiMin(x, n)))
 
 
-def kurangNilaiMin(x: List[int], n: int):
+def kurangNilaiMin(x, n):
 
     #Kita ambil data pertama sebagai nilai maksimum sementara
     m = x[0]

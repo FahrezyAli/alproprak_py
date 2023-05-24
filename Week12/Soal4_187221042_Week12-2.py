@@ -1,4 +1,7 @@
 def main():
+
+    print("Soal Nomor 4 Minggu 12 \"Deret Fibonacci\"")
+
     n = int(input("Input ukuran deret Fibonacci: "))
 
     f = []

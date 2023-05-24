@@ -13,6 +13,9 @@
 #sr:  Nilai kebalikan dalam string
 
 def main():
+
+    print("Soal Nomor 4 Minggu 11 \"Tanggal Palindrome\"")
+
     nb = ["januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", "oktober", "november", "desember"]
 
     ib = 0

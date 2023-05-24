@@ -1,11 +1,13 @@
 def main():
     
+    print("Soal Nomor 3 Minggu 12 \"Array Ascending dengan Jumlah terbesar\"")
+
     n = int(input("Input ukuran array: "))
     
     x = []
 
     #Proses input nilai array x
-    i = 0;
+    i = 0
     while (i < n):
         x.append(int(input("Input nilai ke " + str(i + 1) + ": ")))
         i = i + 1

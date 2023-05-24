@@ -1,6 +1,6 @@
-from typing import List;
-
 def main():
+
+    print("Soal Nomor 5 Minggu 13 \"List index angka terbesar\"")
 
     n = int(input("Input ukuran array yang diinginkan: "))
 
@@ -13,7 +13,7 @@ def main():
     #Output
     print("Index angka terbesar adalah: " + str(maxIndex(x, n)))
 
-def maxIndex(x: List[int], n: int):
+def maxIndex(x, n):
         
     #Kita ambil data pertama sebagai nilai maksimum sementara
     m = x[0]
@@ -32,7 +32,7 @@ def maxIndex(x: List[int], n: int):
 
         if (x[i] == m):
                 
-            #Jika nilai x[i] ==  m, maka index (i) akan diprint out
+            #Jika nilai x[i] ==  m, maka index (i) akan dimasukkan ke list 
             r.append(i)
 
     return r

@@ -10,6 +10,9 @@
 #sa Sudut yang terbentuk terhadap jarum jam dan jarum menit
 
 def main():
+
+    print("Soal Nomor 4 Minggu 10 \"Menghitung sudut antara jarum jam dan jarum menit\"")
+
     j = int(input("Inputlah nilai jam: "))
     m = int(input("Inputlah nilai menit: "))
 

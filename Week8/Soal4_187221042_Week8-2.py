@@ -4,6 +4,9 @@
 #a : Input x
 
 def main():
+
+    print("Soal Nomor 4 Minggu 8 \"Fungsi y=5x^2 + 3x - 1\"")
+
     x = int(input("Masukkan nilai x: "))
     print("Output: y = " + str(5 * x * x + 3 * x - 1))
 
