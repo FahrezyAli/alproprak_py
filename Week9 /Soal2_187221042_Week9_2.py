@@ -1,7 +1,7 @@
-
-#Soal 2 Minggu 9-1
+#Program Soal 2 Minggu 9-1
 #Ali Ahmad Fahrezy
 #187220142
+#
 #n  : Input rerata deret
 #k  : Nilai k dari deret {6, 9, 11, k}
 

@@ -1,7 +1,8 @@
-#Soal 2 Minggu 8-2
+#Program Soal 4 Minggu 8-2
 #Ali Ahmad Fahrezy
 #187220142
-#a : Input x
+#
+#x : Input x
 
 def main():
 

@@ -1,6 +1,8 @@
+from typing import List
+
 def main():
-    
-    print("Soal Nomor 1 Minggu 13 \"Modus dari array\"")
+
+    print("Soal Nomor 2 Minggu 13 \"Frekuensi Modus Terbesar\"")
 
     n = int(input("Input ukuran array yang diinginkan: "))
 
@@ -11,19 +13,17 @@ def main():
         x.append(int(input("Input data ke " + str(i + 1) + ": ")))
 
     #Output
-    print("Modus dari array tersebut adalah: " + str(modus(x, n)))
+    print("Frekuensi terbesar dari array tersebut adalah: " + str(maxFreq(x, n)))
 
-#Fungsi modus
-def modus(x, n):
-
-    v = 0
+def maxFreq(x: List[int], n: int):
+        
     c = 1
     f = 0
     
     for i in range(n - 1):
 
         for j in range(i + 1, n):
-            
+                
             #Dilakukan dua looping untuk melihat apakah value dari x[i] sama dengan x[j]
             if (x[i] == x[j]):
 
@@ -35,12 +35,11 @@ def modus(x, n):
 
             #Jika nilai counter lebih tinggi daripada frekuensi, maka frekuensi akan diisi dengan nilai counter. Dengan ini, nilai frekuensi terbesar akan pasti didapat dan nilai modus (v) pasti benar
             f = c
-            v = x[i]
 
         #Counter direset kembali menjadi 1
         c = 1
 
-    return v
+    return f
 
 if __name__ == "__main__":
     main()

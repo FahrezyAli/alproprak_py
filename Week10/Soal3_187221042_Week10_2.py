@@ -1,4 +1,4 @@
-#Soal 3 Minggu 10-2
+#Program Soal 3 Minggu 10-2
 #Ali Ahmad Fahrezy
 #187220142
 

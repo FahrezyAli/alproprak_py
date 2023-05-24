@@ -1,5 +1,5 @@
 
-#Soal 4 Minggu 10-1
+#Program Soal 4 Minggu 10-1
 #Ali Ahmad Fahrezy
 #187220142
 

@@ -1,6 +1,7 @@
-#Soal 4 Minggu 9-1
+#Program Soal 4 Minggu 9-1
 #Ali Ahmad Fahrezy
 #187220142
+#
 #jo : Jam keberangkatan
 #mo : Menit keberangkatan
 #td : Total detik waktu keberangkatan

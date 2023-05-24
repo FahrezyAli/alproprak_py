@@ -1,4 +1,4 @@
-#Soal 1 Minggu 11-1
+#Program Soal 1 Minggu 11-1
 #Ali Ahmad Fahrezy
 #187221042
 

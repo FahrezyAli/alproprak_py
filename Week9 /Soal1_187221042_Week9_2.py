@@ -1,6 +1,7 @@
-#Soal 1 Minggu 9-2
+#Program Soal 1 Minggu 9-2
 #Ali Ahmad Fahrezy
 #187220142
+#
 #x      : Input warisan ibu dan satu anak
 #ibu    : Jatah warisan ibu
 #sisa   : Sisa warisan setelah memisahkan jatah ibu

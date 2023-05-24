@@ -1,6 +1,6 @@
 import math
 
-#Soal 1 Minggu 10-2
+#Program Soal 1 Minggu 10-2
 #Ali Ahmad Fahrezy
 #187220142
 

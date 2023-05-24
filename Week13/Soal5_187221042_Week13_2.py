@@ -1,3 +1,5 @@
+from typing import List
+
 def main():
 
     print("Soal Nomor 5 Minggu 13 \"List index angka terbesar\"")
@@ -13,7 +15,7 @@ def main():
     #Output
     print("Index angka terbesar adalah: " + str(maxIndex(x, n)))
 
-def maxIndex(x, n):
+def maxIndex(x: List[int], n: int):
         
     #Kita ambil data pertama sebagai nilai maksimum sementara
     m = x[0]

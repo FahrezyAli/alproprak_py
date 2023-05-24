@@ -1,6 +1,7 @@
-#Soal 3 Minggu 9-1
+#Program Soal 3 Minggu 9-1
 #Ali Ahmad Fahrezy
 #187220142
+#
 #b  : Harga beli
 #pb : Persentase beli
 #u  : Keuntungan
