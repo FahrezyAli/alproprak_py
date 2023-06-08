@@ -23,7 +23,7 @@ def main():
 
 def convertBin(n: int):
         
-    b = 0
+    b = ""
 
     if (n < 0):
         return "Harus angka positif"
@@ -35,7 +35,7 @@ def convertBin(n: int):
 
         #Fungsi rekursif dengan cara memanggil kembali convertBin(n / 2), dan digabung dengan n % 2. Ini menggunakan rumus konversi desimal ke binari yaitu membagi 2 angka yang ingin dikonversi, dan jika ia habis maka nilai nya 0, dan jika tidak habis maka nilai nya 1, kemudian dilanjutkan dengan nilai n / 2 dan seterusnya sampai n bernilai 0
         b = convertBin(int(n / 2))
-        b += n % 2
+        b += str(n % 2)
 
     return b
 
