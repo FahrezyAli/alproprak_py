@@ -22,7 +22,7 @@ def main():
 #
 #return Digit terbesar input tersebut
     
-def max(n: int):
+def max(n: int) -> int:
     
     m = 0
 

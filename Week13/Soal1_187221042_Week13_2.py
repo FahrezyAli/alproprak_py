@@ -16,7 +16,7 @@ def main():
     print("Modus dari array tersebut adalah: " + str(modus(x, n)))
 
 #Fungsi modus
-def modus(x: List[int], n: int):
+def modus(x: List[int], n: int) -> int:
 
     v = 0
     c = 1

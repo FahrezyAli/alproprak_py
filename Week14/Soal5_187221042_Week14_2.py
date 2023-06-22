@@ -10,7 +10,7 @@ def main():
 
     n = int(input("Input nilai integer yang ingin dicari jumlah faktornya: "))
 
-    print("Total faktor dari nilai integer tersebut adalah: " + str(numFactor(n, 1)))
+    print("Total faktor dari nilai integer tersebut adalah: " + str(num_factor(n, 1)))
 
 #Fungsi untuk menghitung total faktor dari suatu integer
 #
@@ -22,7 +22,7 @@ def main():
 #
 #return Total faktor
     
-def numFactor(n: int, i: int):
+def num_factor(n: int, i: int) -> int:
         
     t = 0
 
@@ -30,7 +30,7 @@ def numFactor(n: int, i: int):
     if (i <= n / 2):
         
         #Rekursif dengan menambahkan nilai i + 1 untuk mencoba nilai i lainnya
-        t = numFactor(n, i + 1)
+        t = num_factor(n, i + 1)
         if (n % i == 0):
             #Jika nilai i dapat membagi habis n, maka nilai i akan ditambahkan ke sum
             t = t + 1

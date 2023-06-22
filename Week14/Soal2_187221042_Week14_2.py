@@ -10,7 +10,7 @@ def main():
 
     n = int(input("Input nilai integer yang ingin diubah ke dalam binari: "))
 
-    print("Binari dari nilai integer tersebut adalah: " + convertBin(n))
+    print("Binari dari nilai integer tersebut adalah: " + convert_bin(n))
 
 #Fungsi untuk konversi nilai integer ke string binari
 #
@@ -21,7 +21,7 @@ def main():
 #
 #return String binari dari input
 
-def convertBin(n: int):
+def convert_bin(n: int) -> str:
         
     b = ""
 
@@ -34,7 +34,7 @@ def convertBin(n: int):
     else:
 
         #Fungsi rekursif dengan cara memanggil kembali convertBin(n / 2), dan digabung dengan n % 2. Ini menggunakan rumus konversi desimal ke binari yaitu membagi 2 angka yang ingin dikonversi, dan jika ia habis maka nilai nya 0, dan jika tidak habis maka nilai nya 1, kemudian dilanjutkan dengan nilai n / 2 dan seterusnya sampai n bernilai 0
-        b = convertBin(int(n / 2))
+        b = convert_bin(int(n / 2))
         b += str(n % 2)
 
     return b

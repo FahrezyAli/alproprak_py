@@ -13,10 +13,10 @@ def main():
         x.append(int(input("Input data ke " + str(i + 1) + ":  ")))
 
     #Output
-    print("Array yang telah dikurangi dengan nilai terkecil adalah: " + str(kurangNilaiMin(x, n)))
+    print("Array yang telah dikurangi dengan nilai terkecil adalah: " + str(kurang_nilai_min(x, n)))
 
 
-def kurangNilaiMin(x: List[int], n: int):
+def kurang_nilai_min(x: List[int], n: int) -> List[int]:
 
     #Kita ambil data pertama sebagai nilai maksimum sementara
     m = x[0]

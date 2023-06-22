@@ -17,7 +17,7 @@ def main():
     #Output
     print("Median dari array tersebut adalah: " + str(median(x, n)))
 
-def median(x: List[int], n: int):
+def median(x: List[int], n: int) -> int:
 
     #Lokasi median adalah panjang data (n) dibagi 2. Namun, karena index array dimulai dari 0, maka nilai n harus dikurangi dengan 1 terlebih dahulu
     m = 0

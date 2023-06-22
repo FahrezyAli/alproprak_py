@@ -13,9 +13,9 @@ def main():
         x.append(int(input("Input data ke " + str(i + 1) + ": ")))
 
     #Output
-    print("Index angka terbesar adalah: " + str(maxIndex(x, n)))
+    print("Index angka terbesar adalah: " + str(max_index(x, n)))
 
-def maxIndex(x: List[int], n: int):
+def max_index(x: List[int], n: int) -> List[int]:
         
     #Kita ambil data pertama sebagai nilai maksimum sementara
     m = x[0]

@@ -12,7 +12,7 @@ def main():
 
     n = int(input("Input nilai integer yang ingin dicari faktornya: "))
 
-    print("Faktor faktor dari nilai integer tersebut adalah: " + str(dispFactor(n, 1 , [])))
+    print("Faktor faktor dari nilai integer tersebut adalah: " + str(disp_factor(n, 1 , [])))
 
 #Fungsi untuk mendapatkan faktor faktor dari suatu integer
 #
@@ -22,7 +22,7 @@ def main():
 #
 #return List faktor faktor dari suatu integer
 
-def dispFactor(n: int, i: int, r: List[int]):
+def disp_factor(n: int, i: int, r: List[int]) -> List[int]:
     
     #n / 2 karena nilai faktor tertinggi selain nilai itu sendiri adalah nilai n / 2
     if (i <= n / 2):
@@ -31,7 +31,7 @@ def dispFactor(n: int, i: int, r: List[int]):
             r.append(i)
 
         #Rekursif dengan menambahkan nilai i + 1 untuk mencoba nilai i lainnya
-        dispFactor(n, i + 1, r)
+        disp_factor(n, i + 1, r)
 
     else:
         r.append(n)

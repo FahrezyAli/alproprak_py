@@ -13,9 +13,9 @@ def main():
         x.append(int(input("Input data ke " + str(i + 1) + ": ")))
 
     #Output
-    print("Frekuensi terbesar dari array tersebut adalah: " + str(maxFreq(x, n)))
+    print("Frekuensi terbesar dari array tersebut adalah: " + str(max_freq(x, n)))
 
-def maxFreq(x: List[int], n: int):
+def max_freq(x: List[int], n: int) -> int:
         
     c = 1
     f = 0

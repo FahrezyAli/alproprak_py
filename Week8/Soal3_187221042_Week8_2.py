@@ -7,7 +7,7 @@
 
 def main():
 
-    print("Soal Nomor 3 Minggu 8 \"1/(a - b)\"")
+    print("Soal Nomor 3 Minggu 8 \"1 / (a - b)\"")
 
     a = int(input("Masukkan nilai a: "))
     b = int(input("Masukkan nilai b: "))

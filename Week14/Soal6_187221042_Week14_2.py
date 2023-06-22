@@ -14,7 +14,7 @@ def main():
 
     n = int(input("Input nilai integer yang ingin dicari faktor prima nya: "))
 
-    print("Faktor prima dari nilai integer tersebut adalah: " + str(dispPrimeFactor(n, 1, [])))
+    print("Faktor prima dari nilai integer tersebut adalah: " + str(disp_prime_factor(n, 1, [])))
 
 #Fungsi untuk mendapatkan faktor prima dari suatu integer
 #
@@ -24,7 +24,7 @@ def main():
 #
 #return List faktor prima
 
-def dispPrimeFactor(n: int, i: int, r: List[int]):
+def disp_prime_factor(n: int, i: int, r: List[int]) -> List[int]:
     
     if (i <= n / 2):
         if (n % i == 0 and numFactor(i, 1) == 2):
@@ -33,7 +33,7 @@ def dispPrimeFactor(n: int, i: int, r: List[int]):
             r.append(i)
 
         #Rekursif dengan menambahkan nilai i + 1 untuk mencoba nilai i lainnya
-        dispPrimeFactor(n, i + 1, r)
+        disp_prime_factor(n, i + 1, r)
 
     else:
         if (numFactor(n, 1) == 2):
